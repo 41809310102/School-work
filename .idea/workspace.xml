@@ -4,306 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="20221115">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.env.staging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/bin/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/bin/package.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/bin/run-web.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/public/html/ie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/cache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/job.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/jobLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/logininfor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/online.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/operlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dept.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/notice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/tool/gen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/401_images/401.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/bug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/build.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/cascader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/checkbox.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/clipboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/code.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/color.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/component.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/date-range.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/date.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/dict.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/documentation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/druid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/excel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/exit-fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/eye-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/guide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/input.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/international.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/job.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/log.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/logininfor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/message.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/monitor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/nested.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/number.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/online.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/pdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/peoples.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/post.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/qq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/question.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/radio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/rate.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/redis-list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/redis.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/row.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/select.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/server.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/size.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/skill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/slider.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/swagger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/switch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/system.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/textarea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/theme.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/time-range.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/time.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tongxunlu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tool.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tree-table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/upload.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/validCode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/wechat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svg/zip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/login-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/element-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/ruoyi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/day.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/hour.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/min.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/month.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/result.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/second.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/week.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Crontab/year.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/DictData/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/DictTag/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Editor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/FileUpload/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/HeaderSearch/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/IconSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/IconSelect/requireIcons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/ImagePreview/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/ImageUpload/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Pagination/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/PanThumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/ParentView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/RightPanel/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/RightToolbar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/RuoYi/Doc/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/RuoYi/Git/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Screenfull/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/SizeSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/ThemePicker/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/TopNav/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/iFrame/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/drag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/dragHeight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/dialog/dragWidth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/module/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/permission/hasPermi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/directive/permission/hasRole.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/IframeToggle/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/InnerLink/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Settings/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/TagsView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/cache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/plugins/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/dict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/tagsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/Dict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictConverter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictMeta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/DictOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/dict/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/errorCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/drawingDefault.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/icon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/generator/render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/jsencrypt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/ruoyi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/element-icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/components/icons/svg-icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/BarChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/LineChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/PanelGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/PieChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/RaddarChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/mixins/resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/error/401.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/error/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/index_v1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/cache/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/cache/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/druid/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/log.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/logininfor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/online/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/operlog/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/server/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/redirect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/config/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dept/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/data.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/menu/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/notice/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/post/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/authUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/selectUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/authRole.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/resetPwd.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/userAvatar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/profile/userInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/CodeTypeDialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/DraggableItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/IconsDialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/RightPanel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/TreeNodeDialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/build/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/basicInfoForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/editTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/genInfoForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/importTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/swagger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/vue.config.js" afterDir="false" />
+    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="修改了登陆展示">
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/subject/SubjectDbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/domain/SubjectDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/mapper/SubjectDbMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/ISubjectDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/impl/SubjectDbServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/subjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/subject/subject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/subject/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/subject.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -337,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruoyi-system/src/main/resources/subject" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -350,17 +76,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ruoyi-system/src/main/resources/subject" />
       <recent name="$PROJECT_DIR$/sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ruoyi-ui/src/api/subject" />
+      <recent name="$PROJECT_DIR$/ruoyi-ui/src/api/system" />
+      <recent name="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,7 +121,11 @@
       <workItem from="1668428269345" duration="446000" />
       <workItem from="1668431572394" duration="602000" />
       <workItem from="1668432509616" duration="491000" />
-      <workItem from="1668433027896" duration="6346000" />
+      <workItem from="1668433027896" duration="8007000" />
+      <workItem from="1668444013042" duration="616000" />
+      <workItem from="1668477540488" duration="3573000" />
+      <workItem from="1668532674413" duration="1251000" />
+      <workItem from="1668533939334" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="20221115">
       <created>1668442018106</created>
@@ -396,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668442018106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20221115">
+      <created>1668442263550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668442263551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了登陆展示">
+      <created>1668443960358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668443960358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +172,7 @@
       <path value="$PROJECT_DIR$/RuoYi-Vue" />
     </ignored-roots>
     <MESSAGE value="20221115" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221115" />
+    <MESSAGE value="修改了登陆展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了登陆展示" />
   </component>
 </project>
