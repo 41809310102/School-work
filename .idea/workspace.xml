@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="修改了数据库应用case">
-      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/subject/StudentGradeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/domain/StudentGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/mapper/StudentGradeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/IStudentGradeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/impl/StudentGradeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/StudentGradeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/subject/grade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/subject/index_grade.vue" afterDir="false" />
+    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="实现了成绩管理逻辑">
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/people/TeacherDbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/damain/TeacherDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/mapper/TeacherDbMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/service/ITeacherDbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/service/impl/TeacherDbServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/TeacherDbMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/people/teacher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/people/teacher.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
@@ -80,6 +81,7 @@
       <recent name="$PROJECT_DIR$/sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ruoyi-ui/src/api/people" />
       <recent name="$PROJECT_DIR$/ruoyi-ui/src/api/subject" />
       <recent name="$PROJECT_DIR$/ruoyi-ui/src/api/system" />
       <recent name="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system" />
@@ -126,7 +128,7 @@
       <workItem from="1668533939334" duration="4287000" />
       <workItem from="1668612859684" duration="4057000" />
       <workItem from="1668786937551" duration="751000" />
-      <workItem from="1668841242323" duration="5029000" />
+      <workItem from="1668841242323" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="20221115">
       <created>1668442018106</created>
@@ -177,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668617246535</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="实现了成绩管理逻辑">
+      <created>1668847780999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668847780999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +215,7 @@
     <MESSAGE value="数据库应用云数据库" />
     <MESSAGE value="实现课程逻辑添加" />
     <MESSAGE value="修改了数据库应用case" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了数据库应用case" />
+    <MESSAGE value="实现了成绩管理逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了成绩管理逻辑" />
   </component>
 </project>
