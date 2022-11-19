@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="增加了学科模块实现代码">
+    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="修改了数据库应用case">
+      <change afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/subject/StudentGradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/domain/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/mapper/StudentGradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/IStudentGradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/system/service/impl/StudentGradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/StudentGradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/subject/grade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/subject/index_grade.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/resources/application-druid.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
@@ -55,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruoyi-system/src/main/resources/subject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -68,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system" />
       <recent name="$PROJECT_DIR$/ruoyi-system/src/main/resources/subject" />
       <recent name="$PROJECT_DIR$/sql" />
     </key>
@@ -78,6 +86,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ruoyi-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
@@ -105,7 +124,9 @@
       <workItem from="1668477540488" duration="3573000" />
       <workItem from="1668532674413" duration="1251000" />
       <workItem from="1668533939334" duration="4287000" />
-      <workItem from="1668612859684" duration="3816000" />
+      <workItem from="1668612859684" duration="4057000" />
+      <workItem from="1668786937551" duration="751000" />
+      <workItem from="1668841242323" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="20221115">
       <created>1668442018106</created>
@@ -135,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668537753406</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="数据库应用云数据库">
+      <created>1668617160070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668617160070</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实现课程逻辑添加">
+      <created>1668617192800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668617192800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改了数据库应用case">
+      <created>1668617246535</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668617246535</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +203,9 @@
     <MESSAGE value="20221115" />
     <MESSAGE value="修改了登陆展示" />
     <MESSAGE value="增加了学科模块实现代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了学科模块实现代码" />
+    <MESSAGE value="数据库应用云数据库" />
+    <MESSAGE value="实现课程逻辑添加" />
+    <MESSAGE value="修改了数据库应用case" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了数据库应用case" />
   </component>
 </project>
