@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.people.mapper.TeacherDbMapper">
+
+    <resultMap type="TeacherDb" id="TeacherDbResult">
+        <result property="id"    column="id"    />
+        <result property="teacherId"    column="teacher_ID"    />
+        <result property="username"    column="username"    />
+        <result property="teaGh"    column="tea_gh"    />
+        <result property="sex"    column="sex"    />
+        <result property="age"    column="age"    />
+        <result property="phone"    column="phone"    />
+        <result property="mingzhu"    column="mingzhu"    />
+        <result property="hobby"    column="hobby"    />
+        <result property="type"    column="type"    />
+    </resultMap>
+
+    <sql id="selectTeacherDbVo">
+        select id, teacher_ID, username, tea_gh, sex, age, phone, mingzhu, hobby, type from teacher_db
+    </sql>
+
+    <select id="selectTeacherDbList" parameterType="TeacherDb" resultMap="TeacherDbResult">
+        <include refid="selectTeacherDbVo"/>
+        <where>
+            <if test="teacherId != null  and teacherId != ''"> and teacher_ID = #{teacherId}</if>
+            <if test="username != null  and username != ''"> and username like concat('%', #{username}, '%')</if>
+            <if test="teaGh != null  and teaGh != ''"> and tea_gh = #{teaGh}</if>
+        </where>
+    </select>
+
+    <select id="selectTeacherDbById" parameterType="Long" resultMap="TeacherDbResult">
+        <include refid="selectTeacherDbVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertTeacherDb" parameterType="TeacherDb" useGeneratedKeys="true" keyProperty="id">
+        insert into teacher_db
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="teacherId != null">teacher_ID,</if>
+            <if test="username != null">username,</if>
+            <if test="teaGh != null">tea_gh,</if>
+            <if test="sex != null">sex,</if>
+            <if test="age != null">age,</if>
+            <if test="phone != null">phone,</if>
+            <if test="mingzhu != null">mingzhu,</if>
+            <if test="hobby != null">hobby,</if>
+            <if test="type != null">type,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="teacherId != null">#{teacherId},</if>
+            <if test="username != null">#{username},</if>
+            <if test="teaGh != null">#{teaGh},</if>
+            <if test="sex != null">#{sex},</if>
+            <if test="age != null">#{age},</if>
+            <if test="phone != null">#{phone},</if>
+            <if test="mingzhu != null">#{mingzhu},</if>
+            <if test="hobby != null">#{hobby},</if>
+            <if test="type != null">#{type},</if>
+        </trim>
+    </insert>
+
+    <update id="updateTeacherDb" parameterType="TeacherDb">
+        update teacher_db
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="teacherId != null">teacher_ID = #{teacherId},</if>
+            <if test="username != null">username = #{username},</if>
+            <if test="teaGh != null">tea_gh = #{teaGh},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="age != null">age = #{age},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="mingzhu != null">mingzhu = #{mingzhu},</if>
+            <if test="hobby != null">hobby = #{hobby},</if>
+            <if test="type != null">type = #{type},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteTeacherDbById" parameterType="Long">
+        delete from teacher_db where id = #{id}
+    </delete>
+
+    <delete id="deleteTeacherDbByIds" parameterType="String">
+        delete from teacher_db where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

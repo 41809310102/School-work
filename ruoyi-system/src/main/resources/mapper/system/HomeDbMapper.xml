@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.people.mapper.HomeDbMapper">
+
+    <resultMap type="HomeDb" id="HomeDbResult">
+        <result property="id"    column="id"    />
+        <result property="homeId"    column="home_ID"    />
+        <result property="username"    column="username"    />
+        <result property="shihui"    column="shihui"    />
+        <result property="address"    column="address"    />
+        <result property="sex"    column="sex"    />
+        <result property="sfz"    column="sfz"    />
+        <result property="phone"    column="phone"    />
+        <result property="stuId"    column="stu_ID"    />
+        <result property="age"    column="age"    />
+    </resultMap>
+
+    <sql id="selectHomeDbVo">
+        select id, home_ID, username, shihui, address, sex, sfz, phone, stu_ID, age from home_db
+    </sql>
+
+    <select id="selectHomeDbList" parameterType="HomeDb" resultMap="HomeDbResult">
+        <include refid="selectHomeDbVo"/>
+        <where>
+            <if test="homeId != null  and homeId != ''"> and home_ID = #{homeId}</if>
+            <if test="username != null  and username != ''"> and username like concat('%', #{username}, '%')</if>
+            <if test="sfz != null  and sfz != ''"> and sfz = #{sfz}</if>
+        </where>
+    </select>
+
+    <select id="selectHomeDbById" parameterType="Long" resultMap="HomeDbResult">
+        <include refid="selectHomeDbVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertHomeDb" parameterType="HomeDb" useGeneratedKeys="true" keyProperty="id">
+        insert into home_db
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="homeId != null">home_ID,</if>
+            <if test="username != null">username,</if>
+            <if test="shihui != null">shihui,</if>
+            <if test="address != null">address,</if>
+            <if test="sex != null">sex,</if>
+            <if test="sfz != null">sfz,</if>
+            <if test="phone != null">phone,</if>
+            <if test="stuId != null">stu_ID,</if>
+            <if test="age != null">age,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="homeId != null">#{homeId},</if>
+            <if test="username != null">#{username},</if>
+            <if test="shihui != null">#{shihui},</if>
+            <if test="address != null">#{address},</if>
+            <if test="sex != null">#{sex},</if>
+            <if test="sfz != null">#{sfz},</if>
+            <if test="phone != null">#{phone},</if>
+            <if test="stuId != null">#{stuId},</if>
+            <if test="age != null">#{age},</if>
+        </trim>
+    </insert>
+
+    <update id="updateHomeDb" parameterType="HomeDb">
+        update home_db
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="homeId != null">home_ID = #{homeId},</if>
+            <if test="username != null">username = #{username},</if>
+            <if test="shihui != null">shihui = #{shihui},</if>
+            <if test="address != null">address = #{address},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="sfz != null">sfz = #{sfz},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="stuId != null">stu_ID = #{stuId},</if>
+            <if test="age != null">age = #{age},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteHomeDbById" parameterType="Long">
+        delete from home_db where id = #{id}
+    </delete>
+
+    <delete id="deleteHomeDbByIds" parameterType="String">
+        delete from home_db where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

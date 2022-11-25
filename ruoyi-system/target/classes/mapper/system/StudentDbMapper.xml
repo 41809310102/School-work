@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.people.mapper.StudentDbMapper">
+
+    <resultMap type="StudentDb" id="StudentDbResult">
+        <result property="id"    column="id"    />
+        <result property="stuId"    column="stu_id"    />
+        <result property="stuName"    column="stu_name"    />
+        <result property="sfzId"    column="sfz_ID"    />
+        <result property="sex"    column="sex"    />
+        <result property="age"    column="age"    />
+        <result property="mz"    column="mz"    />
+        <result property="zhuzi"    column="zhuzi"    />
+        <result property="address"    column="address"    />
+        <result property="phone"    column="phone"    />
+        <result property="hobby"    column="hobby"    />
+        <result property="stuClass"    column="stu_class"    />
+        <result property="stuNianji"    column="stu_nianji"    />
+        <result property="stuBzr"    column="stu_bzr"    />
+    </resultMap>
+
+    <sql id="selectStudentDbVo">
+        select id, stu_id, stu_name, sfz_ID, sex, age, mz, zhuzi, address, phone, hobby, stu_class, stu_nianji, stu_bzr from student_db
+    </sql>
+
+    <select id="selectStudentDbList" parameterType="StudentDb" resultMap="StudentDbResult">
+        <include refid="selectStudentDbVo"/>
+        <where>
+            <if test="stuId != null  and stuId != ''"> and stu_id = #{stuId}</if>
+            <if test="stuName != null  and stuName != ''"> and stu_name like concat('%', #{stuName}, '%')</if>
+            <if test="sfzId != null  and sfzId != ''"> and sfz_ID = #{sfzId}</if>
+        </where>
+    </select>
+
+    <select id="selectStudentDbById" parameterType="Long" resultMap="StudentDbResult">
+        <include refid="selectStudentDbVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertStudentDb" parameterType="StudentDb" useGeneratedKeys="true" keyProperty="id">
+        insert into student_db
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="stuId != null">stu_id,</if>
+            <if test="stuName != null">stu_name,</if>
+            <if test="sfzId != null">sfz_ID,</if>
+            <if test="sex != null">sex,</if>
+            <if test="age != null">age,</if>
+            <if test="mz != null">mz,</if>
+            <if test="zhuzi != null">zhuzi,</if>
+            <if test="address != null">address,</if>
+            <if test="phone != null">phone,</if>
+            <if test="hobby != null">hobby,</if>
+            <if test="stuClass != null">stu_class,</if>
+            <if test="stuNianji != null">stu_nianji,</if>
+            <if test="stuBzr != null">stu_bzr,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="stuId != null">#{stuId},</if>
+            <if test="stuName != null">#{stuName},</if>
+            <if test="sfzId != null">#{sfzId},</if>
+            <if test="sex != null">#{sex},</if>
+            <if test="age != null">#{age},</if>
+            <if test="mz != null">#{mz},</if>
+            <if test="zhuzi != null">#{zhuzi},</if>
+            <if test="address != null">#{address},</if>
+            <if test="phone != null">#{phone},</if>
+            <if test="hobby != null">#{hobby},</if>
+            <if test="stuClass != null">#{stuClass},</if>
+            <if test="stuNianji != null">#{stuNianji},</if>
+            <if test="stuBzr != null">#{stuBzr},</if>
+        </trim>
+    </insert>
+
+    <update id="updateStudentDb" parameterType="StudentDb">
+        update student_db
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="stuId != null">stu_id = #{stuId},</if>
+            <if test="stuName != null">stu_name = #{stuName},</if>
+            <if test="sfzId != null">sfz_ID = #{sfzId},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="age != null">age = #{age},</if>
+            <if test="mz != null">mz = #{mz},</if>
+            <if test="zhuzi != null">zhuzi = #{zhuzi},</if>
+            <if test="address != null">address = #{address},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="hobby != null">hobby = #{hobby},</if>
+            <if test="stuClass != null">stu_class = #{stuClass},</if>
+            <if test="stuNianji != null">stu_nianji = #{stuNianji},</if>
+            <if test="stuBzr != null">stu_bzr = #{stuBzr},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteStudentDbById" parameterType="Long">
+        delete from student_db where id = #{id}
+    </delete>
+
+    <delete id="deleteStudentDbByIds" parameterType="String">
+        delete from student_db where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
