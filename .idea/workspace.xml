@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="填表报名">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/damain/Zhexian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/School-work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/School-work.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/people/HomeDbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/src/main/java/com/ruoyi/web/controller/people/HomeDbController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-admin/target/classes/com/ruoyi/web/controller/people/HomeDbController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-admin/target/classes/com/ruoyi/web/controller/people/HomeDbController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/src/main/java/com/ruoyi/framework/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-framework/target/classes/com/ruoyi/framework/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-framework/target/classes/com/ruoyi/framework/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/damain/HomeDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/damain/HomeDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/service/impl/HomeDbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/src/main/java/com/ruoyi/people/service/impl/HomeDbServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/HomeDbMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/src/main/resources/mapper/system/HomeDbMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/com/ruoyi/people/domain/HomeDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/target/classes/com/ruoyi/people/domain/HomeDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/com/ruoyi/people/service/impl/HomeDbServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/target/classes/com/ruoyi/people/service/impl/HomeDbServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/HomeDbMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-system/target/classes/mapper/system/HomeDbMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/people/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/people/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/people/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/people/home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="d4c75cab-8825-4337-9380-facf8a197d34" name="Default Changelist" comment="填表报名和Echart例子" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +122,7 @@
       <workItem from="1668786937551" duration="751000" />
       <workItem from="1668841242323" duration="13568000" />
       <workItem from="1668919766205" duration="2941000" />
-      <workItem from="1669225455885" duration="20129000" />
+      <workItem from="1669225455885" duration="20532000" />
     </task>
     <task id="LOCAL-00001" summary="20221115">
       <created>1668442018106</created>
@@ -227,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669370398618</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="填表报名和Echart例子">
+      <created>1669561753179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669561753179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +249,7 @@
     <MESSAGE value="实现了学生管理逻辑" />
     <MESSAGE value="实现了家长管理，填表管理，报名管理" />
     <MESSAGE value="填表报名" />
-    <option name="LAST_COMMIT_MESSAGE" value="填表报名" />
+    <MESSAGE value="填表报名和Echart例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="填表报名和Echart例子" />
   </component>
 </project>
