@@ -15,6 +15,7 @@
         <result property="phone"    column="phone"    />
         <result property="stuId"    column="stu_ID"    />
         <result property="age"    column="age"    />
+
     </resultMap>
 
     <sql id="selectHomeDbVo">

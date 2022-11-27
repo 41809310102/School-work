@@ -173,13 +173,14 @@
       <div slot="footer" class="dialog-footer">
         <el-button type="primary" @click="submitForm">确 定</el-button>
         <el-button @click="cancel">取 消</el-button>
+        <el-button @click="adddemo()"></el-button>
       </div>
     </el-dialog>
   </div>
 </template>
 
 <script>
-import { listHome, getHome, delHome, addHome, updateHome } from "@/api/people/home";
+import { listHome, getHome, delHome, addHome, updateHome,demo } from "@/api/people/home";
 
 export default {
   name: "Home",
@@ -231,6 +232,12 @@ export default {
         this.total = response.total;
         this.loading = false;
       });
+    },
+
+    adddemo(){
+       const data ={
+      }
+      demo(data)
     },
     // 取消按钮
     cancel() {

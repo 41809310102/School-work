@@ -52,6 +52,8 @@ public class HomeDbServiceImpl implements IHomeDbService
     @Override
     public int insertHomeDb(HomeDb homeDb)
     {
+        homeDb.setHomeId("sjdkdkmkm");
+
         return homeDbMapper.insertHomeDb(homeDb);
     }
 

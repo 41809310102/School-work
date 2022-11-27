@@ -42,3 +42,21 @@ export function delHome(id) {
     method: 'delete'
   })
 }
+
+// 删除home
+export function demo(data) {
+  return request({
+    url: '/people/home/demo',
+    method: 'get',
+    params: data
+  })
+}
+
+// 删除home
+export function echartdemo1() {
+  return request({
+    url: '/people/home//chart/demo1',
+    method: 'get',
+    params: ""
+  })
+}
