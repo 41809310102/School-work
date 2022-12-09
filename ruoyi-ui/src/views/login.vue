@@ -52,6 +52,9 @@
         <div style="float: right;" v-if="register">
           <router-link class="link-type" :to="'/register'">立即注册</router-link>
         </div>
+        <div style="float: left;" v-if="register">
+          <router-link class="link-type" :to="'/register1'">手机验证登陆</router-link><br>
+        </div>
       </el-form-item>
     </el-form>
     <!--  底部  -->
